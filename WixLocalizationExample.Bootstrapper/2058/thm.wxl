@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WixLocalization Culture="es-mx" Language="2058" xmlns="http://wixtoolset.org/schemas/v4/wxl">
+  <String Id="Caption" Value="[WixBundleName] Configuración" Overridable="yes"/>
+  <String Id="Title" Value="[WixBundleName]" Overridable="yes"/>
+  <String Id="CheckingForUpdatesLabel" Value="Buscando actualizaciones" Overridable="yes"/>
+  <String Id="UpdateButton" Value="&amp;Actualizar a la versión [WixStdBAUpdateAvailable]" Overridable="yes"/>
+  <String Id="InstallVersion" Value="Versión [WixBundleVersion]" Overridable="yes"/>
+  <String Id="ConfirmCancelMessage" Value="¿Estás seguro que deseas cancelar?" Overridable="yes"/>
+  <String Id="ExecuteUpgradeRelatedBundleMessage" Value="Versión anterior" Overridable="yes"/>
+  <String Id="HelpHeader" Value="Ayuda de configuración" Overridable="yes"/>
+  <String Id="HelpText" Value="/install | /repair | /uninstall | /layout [directory] - instala, repara, desinstala o&#xA;   Crea una copia local completa del paquete en el directorio. La opción predeterminada es instalar.&#xA;&#xA;/passive | /quiet -  muestra una interfaz de usuario mínima sin indicaciones o no muestra ninguna interfaz de usuario y&#xA;   Sin indicaciones. De forma predeterminada, se muestran la interfaz de usuario y todas las indicaciones.&#xA;&#xA;/norestart   - Suprime cualquier intento de reinicio. De forma predeterminada, la interfaz de usuario preguntará antes de reiniciar.&#xA;/log log.txt - registra en un archivo específico. De forma predeterminada, se crea un archivo de registro en %TEMP%." Overridable="yes"/>
+  <String Id="HelpCloseButton" Value="&amp;Cerca" Overridable="yes"/>
+  <String Id="InstallAcceptCheckbox" Value="&amp;Acepto los términos y condiciones de la licencia." Overridable="yes"/>
+  <String Id="InstallOptionsButton" Value="&amp;Opciones" Overridable="yes"/>
+  <String Id="InstallInstallButton" Value="&amp;Instalar" Overridable="yes"/>
+  <String Id="InstallCancelButton" Value="&amp;Cancelar" Overridable="yes"/>
+  <String Id="OptionsHeader" Value="Opciones de configuración" Overridable="yes"/>
+  <String Id="OptionsLocationLabel" Value="Ubicación de instalación:" Overridable="yes"/>
+  <String Id="OptionsBrowseButton" Value="&amp;Navegar" Overridable="yes"/>
+  <String Id="OptionsOkButton" Value="&amp;DE ACUERDO" Overridable="yes"/>
+  <String Id="OptionsCancelButton" Value="&amp;Cancelar" Overridable="yes"/>
+  <String Id="ProgressHeader" Value="Progreso de la configuración" Overridable="yes"/>
+  <String Id="ProgressLabel" Value="Tratamiento:" Overridable="yes"/>
+  <String Id="OverallProgressPackageText" Value="Inicializando..." Overridable="yes"/>
+  <String Id="ProgressCancelButton" Value="&amp;Cancelar" Overridable="yes"/>
+  <String Id="ModifyHeader" Value="Modificar configuración" Overridable="yes"/>
+  <String Id="ModifyRepairButton" Value="&amp;Reparar" Overridable="yes"/>
+  <String Id="ModifyUninstallButton" Value="&amp;Desinstalar" Overridable="yes"/>
+  <String Id="ModifyCancelButton" Value="&amp;Cancelar" Overridable="yes"/>
+  <String Id="SuccessHeader" Value="Configuración exitosa" Overridable="yes"/>
+  <String Id="SuccessCacheHeader" Value="Caché completado con éxito" Overridable="yes"/>
+  <String Id="SuccessInstallHeader" Value="Instalación completada exitosamente" Overridable="yes"/>
+  <String Id="SuccessLayoutHeader" Value="Diseño completado exitosamente" Overridable="yes"/>
+  <String Id="SuccessModifyHeader" Value="Modificar completado exitosamente" Overridable="yes"/>
+  <String Id="SuccessRepairHeader" Value="Reparación completada con éxito" Overridable="yes"/>
+  <String Id="SuccessUninstallHeader" Value="Desinstalar completado exitosamente" Overridable="yes"/>
+  <String Id="SuccessUnsafeUninstallHeader" Value="Desinstalar completado exitosamente" Overridable="yes"/>
+  <String Id="SuccessLaunchButton" Value="&amp;Lanzamiento" Overridable="yes"/>
+  <String Id="SuccessRestartText" Value="Debe reiniciar su computadora antes de poder utilizar el software." Overridable="yes"/>
+  <String Id="SuccessUninstallRestartText" Value="Debe reiniciar su computadora para completar la eliminación del software." Overridable="yes"/>
+  <String Id="SuccessRestartButton" Value="&amp;Reanudar" Overridable="yes"/>
+  <String Id="SuccessCloseButton" Value="&amp;Cerca" Overridable="yes"/>
+  <String Id="FailureHeader" Value="La configuración falló" Overridable="yes"/>
+  <String Id="FailureCacheHeader" Value="Error de caché" Overridable="yes"/>
+  <String Id="FailureInstallHeader" Value="La configuración falló" Overridable="yes"/>
+  <String Id="FailureLayoutHeader" Value="Fallo de diseño" Overridable="yes"/>
+  <String Id="FailureModifyHeader" Value="Modificar fallido" Overridable="yes"/>
+  <String Id="FailureRepairHeader" Value="Reparación fallida" Overridable="yes"/>
+  <String Id="FailureUninstallHeader" Value="Desinstalación fallida" Overridable="yes"/>
+  <String Id="FailureUnsafeUninstallHeader" Value="Desinstalación fallida" Overridable="yes"/>
+  <String Id="FailureHyperlinkLogText" Value="Uno o más problemas provocaron que la configuración fallara. Solucione los problemas y vuelva a intentar la configuración. Para obtener más información, consulte la &lt;a href=&quot;#&quot;&gt;archivo de registro&lt;/a&gt;." Overridable="yes"/>
+  <String Id="FailureRestartText" Value="Debe reiniciar su computadora para completar la reversión del software." Overridable="yes"/>
+  <String Id="FailureRestartButton" Value="&amp;Reanudar" Overridable="yes"/>
+  <String Id="FailureCloseButton" Value="&amp;Cerca" Overridable="yes"/>
+  <String Id="FilesInUseTitle" Value="Archivos en uso" Overridable="yes"/>
+  <String Id="FilesInUseLabel" Value="Las siguientes aplicaciones utilizan archivos que necesitan actualizarse:" Overridable="yes"/>
+  <String Id="FilesInUseNetfxCloseRadioButton" Value="Cerrar el &amp;aplicaciones." Overridable="yes"/>
+  <String Id="FilesInUseCloseRadioButton" Value="Cerrar el &amp;aplicaciones e intentar reiniciarlas." Overridable="yes"/>
+  <String Id="FilesInUseDontCloseRadioButton" Value="&amp;No cierre las aplicaciones. Será necesario reiniciar el sistema." Overridable="yes"/>
+  <String Id="FilesInUseRetryButton" Value="&amp;Rever" Overridable="yes"/>
+  <String Id="FilesInUseIgnoreButton" Value="&amp;Ignorar" Overridable="yes"/>
+  <String Id="FilesInUseExitButton" Value="&amp;Salida" Overridable="yes"/>
+</WixLocalization>
